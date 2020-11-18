@@ -37,6 +37,9 @@ nav div
   width: 60%;
   margin: auto;
 }
+main {
+  padding-bottom: 30px;
+}
 header {
   padding: 30px ;
   
@@ -57,4 +60,14 @@ nav {
   color: white;
   text-align: center;
 }
-
+.other {
+  text-align: center;
+  padding-top: 30px;
+}
+section a {
+  color: black;
+}
+section a:hover {
+  text-decoration: none;
+  color: rgb(209, 209, 208);
+}
