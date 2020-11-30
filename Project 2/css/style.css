@@ -21,9 +21,9 @@ a {
 
 #nav-links1 {
     position: absolute;
-    top: 9%;
-    left: 15%;
-    transform: translate(-85%, -91%);
+    top: 19%;
+    left: 18%;
+    transform: translate(-82%, -81%);
 }
 #nav-links1 li{
     font-size: 20px;
@@ -32,9 +32,9 @@ a {
 }
 #nav-links2 {
     position: absolute;
-    top: 9%;
+    top: 19%;
     left: 80%;
-    transform: translate(-20%, -91%);
+    transform: translate(-20%, -81%);
 }
 #nav-links2 li{
     font-size: 20px;
@@ -42,14 +42,12 @@ a {
     padding-left: 50px;
 }
 #title {
-    font-size: 100px;
+    font-size: 75px;
     font-weight: bold;
     position: absolute;
-    top: 7%;
+    top: 15%;
     left: 50%;
-    transform: translate(-50%, -93%);
-    padding-bottom: 15pt;
-    padding-top: 15pt;
+    transform: translate(-50%, -85%);
     font-family: 'GopherFont', sans-serif;
 }
 #m {
@@ -170,17 +168,23 @@ a {
 #email {
     width: 45%;
     padding: 10px;
+    font-weight: bold;
+    font-family: 'GinesoFont', sans-serif;
 }
 #name {
     width: 45%;
     padding: 10px;
+    font-weight: bold;
+    font-family: 'GinesoFont', sans-serif;
 }
 #message {
-    font-size: 15px;
+    font-size: 14px;
     width: 45%;
     height: 100px;
     resize: none;
     padding: 10px;
+    font-weight: bold;
+    font-family: 'GinesoFont', sans-serif;
 }
 #submit {
     font-size: 17px;
@@ -191,4 +195,5 @@ a {
     border: none;
     border-radius: 50px;
     outline: none;
+    font-family: 'GinesoFont', sans-serif;
 }
