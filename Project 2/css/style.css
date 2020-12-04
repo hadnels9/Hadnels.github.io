@@ -303,10 +303,10 @@ footer {
         display: none;
     }
     #nav3 {
-        display: table-cell;
-        position: fixed;
-        top: 23%;
-        left: 29%;
+        display: inline-block;
+        margin-top: -19%;
+        text-align: center;
+        padding: 10px;
         
     }
     #title {
@@ -334,13 +334,13 @@ footer {
     }
     .product {
         position: relative;
-        width: 250px;
-        height: 257px;
+        width: 300px;
+        height: 307px;
         
     }
     .img {
-        width: 250px;
-        height: 257px;
+        width: 300px;
+        height: 307px;
         cursor: pointer;
         border-radius: 15px;
         transition: opacity 0.7s;
